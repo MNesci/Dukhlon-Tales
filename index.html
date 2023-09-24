@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background">
+        <div class="filterSection">
+            <div class="filters">
+                <div class="rankFilter">
+                    <div class="individualFilter">
+                        <label for="standard">Standard</label>
+                        <input id="standard" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="rankOneFeat">Rank 1 Feat</label>
+                        <input id="rankOneFeat" type="checkbox">
+                    </div>
+                </div>
+                <div class="weaponFilter">
+                    <div class="individualFilter">
+                        <label for="anyWeapon">Any Weapon</label>
+                        <input id="anyWeapon" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="nonWeapon">Non Weapon</label>
+                        <input id="nonWeapon" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="arcing">Arcing</label>
+                        <input id="arcing" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="bashing">Bashing</label>
+                        <input id="bashing" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="thrusting">Thrusting</label>
+                        <input id="thrusting" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="bulwark">Bulwark</label>
+                        <input id="bulwark" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="momentous">Momentous</label>
+                        <input id="momentous" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="photon">Photon</label>
+                        <input id="photon" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="sonic">Sonic</label>
+                        <input id="sonic" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="thermal">Thermal</label>
+                        <input id="thermal" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="explosive">Explosive</label>
+                        <input id="explosive" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="melee">Melee</label>
+                        <input id="melee" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="ranged">Ranged</label>
+                        <input id="ranged" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="oneHand">1H</label>
+                        <input id="oneHand" type="checkbox">
+                    </div>
+                    <div class="individualFilter">
+                        <label for="twoHand">2H</label>
+                        <input id="twoHand" type="checkbox">
+                    </div>
+                </div>
+            </div>
+            <div class="filterInstructions">
+                <h2>Instructions</h2>
+                <p>This page displays all cards (Global Actions not being counted) available in Dukhlon Tales. The cards can be filtered to only show cards you are interested in. Multiple filters in the same column use OR logic (they will display cards that fit any criteria). Multiple filters in different columns use AND logic (they will display cards that fit every criteria).</p>
+                <p>When filtering for cards that can be used with certain weapons, select all filters that match the weapons' characteristics (such as Attack type, melee/ranged categorization, and handedness). The "Any Weapon" filter displays cards that require a weapon, but can be used with any weapon. The "Non Weapon" filter displays cards that don't require weapons.</p>
+            </div>
+        </div>
+        <div class="filterButton">Filter Cards</div>
+        <div class="cardCounter"></div>
+        <div class="grid">
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
