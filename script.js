@@ -2667,9 +2667,9 @@ let cards = [
     "img": "icons/svg/item-bag.svg",
     "system": {
       "name": "",
-      "tempoCost": "1",
+      "tempoCost": "2",
       "traits": "Rank 1 Feat, Strike",
-      "description": "Make a Sonic Attack with a Weapon against each enemy and ally in a 3 meter Wave. Deal 3d6 damage. Defenders can’t have Cover against this Attack.\n",
+      "description": "Make a Sonic Attack with a Weapon against each enemy and ally in a 3 meter Wave. Deal 3d6 damage. Defenders can’t have Cover from this Attack due to objects.\n",
       "outcomes": {
         "ME": "",
         "GE": "",
