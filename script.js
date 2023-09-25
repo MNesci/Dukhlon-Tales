@@ -569,7 +569,7 @@ let cards = [
       "name": "",
       "tempoCost": "X",
       "traits": "Rank 1 Feat, Strike",
-      "description": "Make an Attack against each enemy and ally in a 1 meter Blast centered within Y meters with an Explosive Weapon, where Y is the Weapon’s Range. Deal (X + 2)d6 damage. If X is greater than 2, this Action has the Fleeting Trait.",
+      "description": "Make an Attack against each enemy and ally in a 1 meter Blast centered within Y meters with an Explosive Weapon, where Y is the Weapon’s Range. Deal (X + 1)d6 damage. If X is greater than 2, this Action has the Fleeting Trait.",
       "outcomes": {
         "ME": "",
         "GE": "",
@@ -580,7 +580,7 @@ let cards = [
       "keyword": "",
       "inCombatDeck": false,
       "currentLocation": "deck",
-      "roll": "(X+2)d6",
+      "roll": "(X+1)d6",
       "tags": "Explosive"
     },
     "effects": [],
